@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- basic information -->
+<extension type="module" version="0.0.1" client="site" method="upgrade">
+    <name>mod_myinstalledextensions</name>
+    <author>Pierre Veelen</author>
+    <creationDate>16 Juli 2018</creationDate>
+    <copyright>Copyright (C) 2018 by Pierre Veelen. All rights reserved.</copyright>
+    <license>GNU General Public License version 2</license>
+    <authorEmail>pierre@pvln.nl</authorEmail>
+    <authorUrl></authorUrl>
+    <version>0.0.1</version>
+    <description>MOD_MYINSTALLEDEXTENSIONS_XML_DESCRIPTION</description>
+    
+<!-- files and folders used by this module -->
+    <files>
+        <filename module="mod_myinstalledextensions">mod_myinstalledextensions.php</filename>
+        <filename>mod_myinstalledextensions.xml</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+    
+<!-- additional fields to be configured in joomla back-end for this module-->  
+    <config>
+	<fields name="params" >
+		<fieldset name="advanced" >
+			<field	name="moduleclass_sfx"
+				type="text"
+				label="Module Class Suffix"
+				description="MOD_MYINSTALLEDEXTENSIONS_CLASS_SUFFIX"
+			/>
+			<field	name="pretext" 
+				type="textarea"
+				label="Pre Text"
+				description="MOD_MYINSTALLEDEXTENSIONS_PRETEXT"
+				cols="30"
+				rows="5"
+			/>
+			<field	name="posttext"
+				type="textarea"
+				label="Post Text"
+				description="MOD_MYINSTALLEDEXTENSIONS_POSTTEXT"
+				cols="30"
+				rows="5"
+			/>
+			<field	name="listtype"
+				type="list"
+				default="0"
+				label="List Type"
+				description="MOD_MYINSTALLEDEXTENSIONS_LISTTYPE">
+					<option value="0">Show all</option>
+					<option value="1">Show only non-Joomla!</option>
+			</field>
+
+		</fieldset>
+	</fields>
+    </config>
+	
+<!-- configuration for update servers-->  	
+    <updateservers>
+		<server
+			type="extension"
+			priority="1"
+			name="Updates for My Installed Extensions module">
+			http://update.pvln.nl/joomla/modules/myextensions/mod_myinstalledextensions.xml
+		</server>
+
+    </updateservers>
+</extension>
