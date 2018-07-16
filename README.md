@@ -1,1 +1,1 @@
-This module lists the installed extensions of this Joomla! website.
+This module lists the installed extensions of a Joomla! website.
