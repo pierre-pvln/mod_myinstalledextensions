@@ -12,7 +12,7 @@
 		<version>0.0.1</version>
 		<infourl title="List Installed Extensions">http://pvln.nl</infourl>
 		<downloads>
-			<downloadurl type="upgrade" format="zip">http://update.pvln.nl/joomla/modules/myextensions/mod_myinstalledextensions_v0.0.1.zip</downloadurl>
+			<downloadurl type="upgrade" format="zip">http://download.pvln.nl/joomla/modules/mod_myinstalledextensions/mod_myinstalledextensions_v0.0.1.zip</downloadurl>
 		</downloads>
 		<targetplatform name="joomla" version="3" />
 	</update>

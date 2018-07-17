@@ -1,12 +1,18 @@
 <?php 
-
+/**
+ * @package     mod_installedextensions
+ * @author      Pierre Veelen, www.pvln.nl
+ * @copyright   Copyright (C) 2018 Pierre Veelen. All rights reserved.
+ * @license     GNU General Public License version 2 or later.
+ */
+ 
 defined('_JEXEC') or die;
 
 /**
  * Helper for mod_installedextensions
  */
 
-abstract class ModMEInstalledExtensionsHelper
+abstract class ModMyInstalledExtensionsHelper
 {
     /**
      * The class ModMEInstalledExtensionsHelper gets a list of all installed extensions of this Joomla! website

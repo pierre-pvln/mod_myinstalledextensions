@@ -1,4 +1,10 @@
 <?php 
+/**
+ * @package     mod_installedextensions
+ * @author      Pierre Veelen, www.pvln.nl
+ * @copyright   Copyright (C) 2018 Pierre Veelen. All rights reserved.
+ * @license     GNU General Public License version 2 or later.
+ */
 
 defined('_JEXEC') or die;
 
@@ -12,7 +18,7 @@ defined('_JEXEC') or die;
  * 			Not used in this one yet (for future use).
  *
  */
-	$list = ModMEInstalledExtensionsHelper::getItems($params);
+	$list = ModMyInstalledExtensionsHelper::getItems($params);
  	
 /**
  * Get layout values from back-end setting tab advanced in $params 
@@ -22,7 +28,6 @@ defined('_JEXEC') or die;
  * 
  */
 	$layout = $params->get('layout','default');
-
 	
 /**
  * This method returns the path to the layout file for the module.
