@@ -6,7 +6,7 @@
 		<description>Module to list the installed extensions of a Joomla! website</description>
 		<maintainer>Pierre Veelen</maintainer>
 		<maintainerurl>http://www.pvln.nl</maintainerurl>
-        <element>mod_myinstalledextensions</element>
+                <element>mod_myinstalledextensions</element>
 		<type>module</type>
 		<client>0</client>
 		<version>0.0.1</version>
