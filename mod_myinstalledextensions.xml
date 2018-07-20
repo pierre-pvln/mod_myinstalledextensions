@@ -76,7 +76,7 @@
             type="extension"
             priority="1"
             name="Updates for My Installed Extensions module">
-            http://update.pvln.nl/joomla/modules/myextensions/mod_myinstalledextensions.xml
+            http://update.pvln.nl/joomla/modules/myinstalledextensions/mod_myinstalledextensions.xml
         </server>
 
     </updateservers>
