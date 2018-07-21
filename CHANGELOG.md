@@ -1,6 +1,11 @@
 ---
-#  My Installed Extensions module changelog
+#  Changelog Module: My Installed Extensions
 ---
+<h4>v.0.0.4 2018-07-21</h4>
+<ul>
+<li>Output in table format</li>
+</ul>
+
 <h4>v.0.0.3 2018-07-19</h4>
 <ul>
 <li>Documentation check and update</li>

@@ -1,4 +1,4 @@
-# mod_installedextensions
+# mod_myinstalledextensions
 Joomla website Module to show a list of the installed extensions of a Joomla website.
 
 Language files included: en-GB, nl-NL

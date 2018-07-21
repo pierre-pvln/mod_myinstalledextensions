@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- basic information -->
+<!-- basic information of the extension -->
+<!-- more info: https://docs.joomla.org/Manifest_files/nl -->
 <extension
-    version="3.0"
+    version="3.0" 
     type="module"
 	client="site"
 	method="upgrade">
+
     <name>mod_myinstalledextensions</name>
 
     <!-- The following metadata elements are optional and free of formatting constraints -->
     <author>Pierre Veelen</author>
     <authorEmail>pierre@pvln.nl</authorEmail>
     <authorUrl>http://www.pvln.nl/my-installed-extensions</authorUrl>
-    <creationDate>19 Juli 2018</creationDate>
+    <creationDate>21 Juli 2018</creationDate>
     <copyright>Copyright (C) 2018 by Pierre Veelen. All rights reserved.</copyright>
     <license>GNU General Public License version 2</license>
 
-    <!--  The version string is recorded in the #__extensions table -->
-    <version>0.0.3</version>
+    <!--  The version string for this extension; is recorded in the #__extensions table -->
+    <version>0.0.4</version>
 
     <!-- The description is optional and defaults to the name; translatable field -->
     <description>MOD_MYINSTALLEDEXTENSIONS_XML_DESCRIPTION</description>

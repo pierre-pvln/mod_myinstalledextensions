@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package     mod_installedextensions
+ * @package     mod_myinstalledextensions
  * @author      Pierre Veelen, www.pvln.nl
  * @copyright   Copyright (C) 2018 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
