@@ -6,7 +6,7 @@ http://www.pvln.nl/my-installed-extensions <br/>
 * Update server:<br/>
 http://update.pvln.nl/joomla/modules/myinstalledextensions/mod_myinstalledextensions.xml <br/>
 * Joomla Extension Directory: <br/>
-Not available yet. <br/><br/>
+Not available yet. <br/>
 * Language files included:
   * en-GB
   * nl-NL
