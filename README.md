@@ -1,8 +1,12 @@
-# mod_myinstalledextensions
-Joomla website Module to show a list of the installed extensions of a Joomla website.
+# My Installed Extensions
+Joomla! website module to show a list of the installed extensions of a Joomla! website.
 
-Language files included: en-GB, nl-NL
-
-* Download extension:http://www.pvln.nl/my-installed-extensions
-* Update server: http://update.pvln.nl/joomla/modules/myextensions/mod_myinstalledextensions.xml
-* Joomla Extension Directory: not available yet
+* Documentation and download extension: <br/>
+http://www.pvln.nl/my-installed-extensions <br/>
+* Update server:<br/>
+http://update.pvln.nl/joomla/modules/myinstalledextensions/mod_myinstalledextensions.xml <br/>
+* Joomla Extension Directory: <br/>
+Not available yet. <br/><br/>
+* Language files included:
+  * en-GB
+  * nl-NL
