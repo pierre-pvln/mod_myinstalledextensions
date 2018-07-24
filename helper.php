@@ -9,7 +9,7 @@
 defined('_JEXEC') or die;
 
 /**
- * Helper for mod_installedextensions
+ * Helper for mod_myinstalledextensions
  */
 
 abstract class ModMyInstalledExtensionsHelper

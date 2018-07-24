@@ -5,7 +5,7 @@
  * @copyright   Copyright (C) 2018 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
  *
- * default.php  Used to output the data to html page. 
+ * default.php  Used to output the data to html page. Therefore a lot of html code is included.  
  *
  */
 
