@@ -15,7 +15,7 @@ defined('_JEXEC') or die;
 abstract class ModMyInstalledExtensionsHelper
 {
     /**
-     * The class ModMEInstalledExtensionsHelper gets a list of all installed extensions of this Joomla! website
+     * The class ModMyInstalledExtensionsHelper gets a list of all installed extensions of this Joomla! website
      *
      **/
 	 
